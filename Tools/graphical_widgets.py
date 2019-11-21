@@ -7,11 +7,11 @@ class ExternalWindows:
         pass
 
     # Default ip and port for debbuging
-    _IP = "0.0.0.0"
+    _IP = "127.0.0.1"
     _Port = 5000
     # Text for the drawing text part!
     _Text = "WOW"
-    _Nickname = "0.0.0.0"
+    _Nickname = "lol"
 
     # This temporary variable is used to get any other things we might need from the user
     # A little bit confusing but it works
