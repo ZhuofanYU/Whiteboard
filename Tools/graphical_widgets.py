@@ -46,6 +46,7 @@ class ExternalWindows:
         def exit_program():
             exit()
 
+        cls._Flag = False
         master = Tk()
         Label(master, text="Please type the host information").grid(row=0)
         Label(master, text="IP:").grid(row=1)
@@ -110,6 +111,7 @@ class ExternalWindows:
         def get_text():
             try:
                 cls._Nickname = e1.get()
+                cls._Flag = True
             except:
                 pass
             master.destroy()
